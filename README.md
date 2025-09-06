@@ -12,7 +12,6 @@ Welcome to my modern, animated 3D developer portfolio built with React, Three.js
 - [Getting Started](#-getting-started)
 - [Customization](#-customization)
 - [Contact](#-contact)
-- [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
 ---
@@ -91,10 +90,6 @@ Assets used in the project can be found [here](https://github.com/user-attachmen
 
 Feel free to reach out to me for any questions or collaboration opportunities!
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ---
 
 ### � Acknowledgments
@@ -108,11 +103,7 @@ This portfolio is based on the original template by Ali Sanati, modified and cus
 
 - A fun App Clone (YouTube, Netflix, etc.)
 
-Or another interactive Portfolio
-
-Let me know!
-
 ---
 
 ## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+Star the repo and share your feedback :)
