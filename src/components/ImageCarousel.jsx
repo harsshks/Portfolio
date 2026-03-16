@@ -35,6 +35,7 @@ const ImageCarousel = ({ images }) => {
             <img
               src={image.src}
               alt={image.alt || `Slide ${index + 1}`}
+              loading="lazy"
               className="object-contain max-w-full max-h-full w-auto h-auto"
             />
           </div>

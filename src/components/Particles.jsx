@@ -8,14 +8,20 @@ function MousePosition() {
   });
 
   useEffect(() => {
+    let rafId = null;
     const handleMouseMove = (event) => {
-      setMousePosition({ x: event.clientX, y: event.clientY });
+      if (rafId) return;
+      rafId = requestAnimationFrame(() => {
+        setMousePosition({ x: event.clientX, y: event.clientY });
+        rafId = null;
+      });
     };
 
     window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
+      if (rafId) cancelAnimationFrame(rafId);
     };
   }, []);
 
