@@ -174,7 +174,7 @@ export const experiences = [
   },
   {
     title: "Secretary - GeekRoom USAR & ACTS-EDC",
-    date: "2024-Present",
+    date: "2024-2026",
     contents: [
       "✅ Supervised a team of coordinators and led technical activities within the club GeekRoom USAR later ACTS-EDC (Association of Computing, Technology and Science  - East Delhi Campus).",
       "✅ Organized coding competitions, hackathons, and technical fests for students.",
@@ -184,7 +184,7 @@ export const experiences = [
   },
   {
     title: "Web Coordinator – Google Developer Groups (GDG)- USAR Chapter",
-    date: "2024-Present",
+    date: "2024-2025",
     contents: [
       "✅ Coordinated and managed multiple technical events and workshops, engaging 100+ students.",
       "✅ Collaborated with developers and speakers to organize impactful sessions.",
