@@ -1,6 +1,41 @@
 export const myProjects = [
   {
     id: 1,
+    title: "StarGPT - AI Chat Application",
+    description:
+      "A modern, full-stack AI chat application powered by Google's Gemini API with real-time streaming responses and conversation management.",
+    subDescription: [
+      "Integrated Google Gemini 2.5 Flash Lite for intelligent AI responses with Server-Sent Events (SSE) for real-time streaming.",
+      "Built secure JWT-based user authentication, persistent conversation management with MongoDB, and a responsive UI with smooth animations.",
+    ],
+    href: "https://star-gpt-two.vercel.app",
+    logo: "",
+    image: "/assets/projects/stargpt.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 4,
+        name: "Express.js",
+        path: "/assets/logos/express-js.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Call of Duty Landing Page",
     description:
       "A dynamic 3D web experience featuring Call of Duty themed elements, built using Three.js and modern web technologies.",
