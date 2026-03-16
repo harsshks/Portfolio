@@ -36,6 +36,76 @@ export const myProjects = [
   },
   {
     id: 2,
+    title: "TaskFlow - Modern Task Management App",
+    description:
+      "A beautiful, modern task management application built with React, Vite, and Tailwind CSS to help you stay organized and boost productivity.",
+    subDescription: [
+      "Features a drag-and-drop Kanban board with Todo, Doing, and Done columns, priority levels with gradient badges, and real-time task statistics.",
+      "Built with glassmorphism UI, animated gradient backgrounds, smooth animations, and a fully responsive design across all devices.",
+    ],
+    href: "https://task-flow-modern-task-management-ap.vercel.app",
+    logo: "",
+    image: "/assets/projects/taskflow.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Vite",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Property Recommender - AI-Powered Platform",
+    description:
+      "Smart AI-powered commercial property discovery platform for Delhi providing intelligent recommendations, zoning compliance verification, and business suitability analysis.",
+    subDescription: [
+      "Features AI-powered property search with intelligent recommendations based on business type and requirements, real-time zoning compliance verification, and automated business suitability analysis.",
+      "Built with comprehensive property data across Delhi's prime locations, detailed compliance scores (65-95% range), and an interactive AI assistant for property-specific guidance.",
+    ],
+    href: "https://property-recommender-pi.vercel.app",
+    logo: "",
+    image: "/assets/projects/propertyrecommender.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Vite",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "Call of Duty Landing Page",
     description:
       "A dynamic 3D web experience featuring Call of Duty themed elements, built using Three.js and modern web technologies.",
