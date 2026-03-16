@@ -13,7 +13,7 @@ const About = () => {
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
           <img
-            src="assets\pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png"
+            src="assets/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png"
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[1.5]"
           />
           <div className="z-10">
@@ -22,7 +22,7 @@ const About = () => {
               Hi, I’m Harsh Kumar, a passionate Web Developer and Tech Enthusiast exploring the world of Technology . I love turning ideas into interactive digital experiences, building impactful projects, and continuously learning to stay ahead in the tech space.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
@@ -43,7 +43,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in India, and open to remote work worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -62,20 +62,17 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
-            <p className="subtext">
-              I work with a versatile stack of technologies to craft scalable and engaging web applications.
-
-              <li>Frontend: HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind CSS</li>
-
-              <li>Backend: Node.js, Express.js</li>
-
-              <li>Database: MongoDB, MySQL</li>
-
-              <li>Tools & Platforms: Git, GitHub, VS Code, </li>
-
-              <ul>Other Interests: API integration and experimenting with Three.js for 3D web experiences</ul>
-            </p>
+            <p className="headtext">Tech Stack</p>
+            <div className="subtext">
+              <p>I work with a versatile stack of technologies to craft scalable and engaging web applications.</p>
+              <ul className="list-disc list-inside mt-2 space-y-1">
+                <li>Frontend: HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind CSS</li>
+                <li>Backend: Node.js, Express.js</li>
+                <li>Database: MongoDB, MySQL</li>
+                <li>Tools & Platforms: Git, GitHub, VS Code</li>
+                <li>Other Interests: API integration and experimenting with Three.js for 3D web experiences</li>
+              </ul>
+            </div>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />

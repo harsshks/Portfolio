@@ -28,30 +28,28 @@ const Contact = () => {
     setIsLoading(true);
 
     try {
-      console.log("From submitted:", formData);
       await emailjs.send(
-        "service_lwj2lfl", // Replace with your EmailJS service ID
-        "template_8kasfk8", // Replace with your EmailJS template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: formData.name,
-          to_name: "Harsh Kumar", // Replace with your name
+          to_name: "Harsh Kumar",
           from_email: formData.email,
-          to_email: "harsh.kumar.25102003@gmail.com", // Replace with your email
+          to_email: import.meta.env.VITE_CONTACT_EMAIL,
           message: formData.message,
         },
-        "UiBtD0-Bl8KWuKIg6" // Replace with your EmailJS public key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
-      showAlertMessage("success", "You message has been sent!");
+      showAlertMessage("success", "Your message has been sent!");
     } catch (error) {
       setIsLoading(false);
-      console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("danger", "Something went wrong!");
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section id="contact" className="relative flex items-center c-space section-spacing">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -64,13 +62,13 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
+            Whether you're looking to build a new website, improve your existing
             platform, or bring a unique project to life, I'm here to help
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
+            <label htmlFor="name" className="field-label">
               Full Name
             </label>
             <input
@@ -86,7 +84,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="email" className="feild-label">
+            <label htmlFor="email" className="field-label">
               Email
             </label>
             <input
@@ -102,7 +100,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="message" className="feild-label">
+            <label htmlFor="message" className="field-label">
               Message
             </label>
             <textarea

@@ -3,47 +3,47 @@ import ImageCarousel from "../components/ImageCarousel";
 const images = [
   {
     src: "/assets/geekverse1.jpg",
-    alt: "Accessories Project"
+    alt: "Geekverse Hackathon - Event Photo 1"
   },
   {
     src: "/assets/geekverse2.jpg",
-    alt: "Auth System Project"
+    alt: "Geekverse Hackathon - Event Photo 2"
   },
   {
     src: "/assets/SDI_1.jpg",
-    alt: "Blazor App Project"
+    alt: "Smart Delhi Ideathon - Event Photo 1"
   },
   {
     src: "/assets/SDI_2.jpg",
-    alt: "COD Project"
+    alt: "Smart Delhi Ideathon - Event Photo 2"
   },
   {
     src: "/assets/SDI_3.jpg",
-    alt: "E-Learning Project"
+    alt: "Smart Delhi Ideathon - Event Photo 3"
   },
   {
     src: "/assets/SDI_4.jpg",
-    alt: "E-Learning Project"
+    alt: "Smart Delhi Ideathon - Event Photo 4"
   },
   {
     src: "/assets/GDG_1.jpg",
-    alt: "E-Learning Project"
+    alt: "Google Developer Groups USAR - Event Photo 1"
   },
   {
     src: "/assets/GDG_2.jpg",
-    alt: "E-Learning Project"
+    alt: "Google Developer Groups USAR - Event Photo 2"
   },
   {
     src: "/assets/GDG_3.jpg",
-    alt: "E-Learning Project"
+    alt: "Google Developer Groups USAR - Event Photo 3"
   },
   {
     src: "/assets/googleIO_1.jpg",
-    alt: "E-Learning Project"
+    alt: "Google I/O Extended - Event Photo 1"
   },
   {
     src: "/assets/googleIO_2.jpg",
-    alt: "E-Learning Project"
+    alt: "Google I/O Extended - Event Photo 2"
   }
 ];
 
